@@ -5,8 +5,8 @@
 
 ## Демо проекта
 
-- 🔗 [Интерактивный дашборд на Streamlit]([https://youtubetrendsanalysis-jrgyjvpmcftevyt3ikmmks.streamlit.app])
-- ✍️ [Статья на Medium с подробным анализом]([https://medium.com/@sergegribo2/%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D1%82%D1%80%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2-%D0%BD%D0%B0-youtube-%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%BC-b8d3a80df0fa])
+- 🔗 [Интерактивный дашборд на Streamlit](https://youtubetrendsanalysis-jrgyjvpmcftevyt3ikmmks.streamlit.app)
+- ✍️ [Статья на Medium с подробным анализом](https://medium.com/@sergegribo2/%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D1%82%D1%80%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2-%D0%BD%D0%B0-youtube-%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%BC-b8d3a80df0fa)
 
 
 ## Технологии и инструменты
@@ -31,7 +31,7 @@ streamlit run app.py
 
 
 ## Структура проекта
-
+```
 Youtube_trends/
 ├──app.py                   #Код для Streamlit-дашборда
 ├──youtube_scraper.py       #Скрипт для сбора данных через YouTube API
@@ -39,7 +39,7 @@ Youtube_trends/
 ├──requirements.txt         #Зависимости проекта
 ├──log.txt                  #Лог ежедневного выполнения скрипта (CronJob)
 └── README.md               #Описание проекта
-
+```
 
 
 ##
@@ -51,4 +51,4 @@ Youtube_trends/
 - Тренды **практически не меняются**, в связи с чем преобладают почти одни и те же категории
 
 
-Подробнее о результатах анализа в [Medium-статье]([https://medium.com/@sergegribo2/%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D1%82%D1%80%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2-%D0%BD%D0%B0-youtube-%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%BC-b8d3a80df0fa]).
+Подробнее о результатах анализа в [Medium-статье](https://medium.com/@sergegribo2/%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D1%82%D1%80%D0%B5%D0%BD%D0%B4%D0%BE%D0%B2-%D0%BD%D0%B0-youtube-%D1%87%D1%82%D0%BE-%D0%B4%D0%B5%D0%BB%D0%B0%D0%B5%D1%82-%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE-%D0%BF%D0%BE%D0%BF%D1%83%D0%BB%D1%8F%D1%80%D0%BD%D1%8B%D0%BC-b8d3a80df0fa).
